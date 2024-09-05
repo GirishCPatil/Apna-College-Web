@@ -69,11 +69,40 @@
             <input type="radio" name="fruit" value="apple" id="mango">
             <label for="mango">Mango</label>
 <hr>
-            <button>Submit</button>
+         
+            <Select name="Profession">
 
-
- 
+                <option >Select Your Option</option>
+                <option value="student" selected>Student</option>
+                <option value="dev">Developer</option>
+            </Select>
         </div>
+
+          <!-- range is used for volume and step will increase avalue of this time  -->
+        <label for="vol">Select Volume</label>
+           <input type="range" id="vol" name="vol" min="0" max="100" step="10"> 
+
+           <label for="feedvsack">Enter Your Feedback: </label>
+           <textarea name="feedback" id="feedback" placeholder="enter your feedback"></textarea>
+        <button>Submit</button>
+
     </form>
+
+    <!-- practice  question -->
+     <form action="/action">
+        <caption><h1>Registration Form</h1></caption>
+        <input type="text" name="" id="" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <br>
+        <label for="gender">Please Select gender:</label>
+        <select name="" id="gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label for="">Do you agree to all terms of service?</label>
+        <input type="checkbox" id="yes">
+        <label for="yes">Yes ,I agree</label>
+        <button>Register</button>
+     </form>
 </body>
 </html>
