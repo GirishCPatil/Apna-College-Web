@@ -1,0 +1,38 @@
+*{
+    font-family:'Courier New', Courier, monospace ;
+}
+
+h1,h3{
+    color:brown;
+}
+#login{
+    background-color: gray;
+    color: aliceblue;
+}
+#signup{
+    background-color: brown;
+    color: white;
+}
+
+.post a{
+    background-color: yellow;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: aquamarine;
+}
+div > a{
+    background-color: gray;
+}
+
+input[type=password]{
+    background-color: brown;
+    color: white;
+}
+
+#myid p{
+    background-color: greenyellow;
+    color: maroon;
+}
