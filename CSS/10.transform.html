@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            border-radius: 5px;
+            box-shadow: 12px 12px 18px  burlywood;
+            background-color: rgba(144, 47, 144, 0.3);
+            background-image: url(../assests/girl.jpg);
+            background-size: contain;
+        
+        }
+
+        .box1 , .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 20px;
+        }
+       
+
+        .box1:hover{
+            background-color: cadetblue;
+            transition: 1s  ease-in-out;
+            border-radius: 50%;
+        }
+
+       
+
+        .box2:hover{
+            width: 300px;
+            background-color: cadetblue;
+            transition-duration: 2s;
+            transition-timing-function: steps(6);
+        }
+
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+            margin: 0 auto;
+            transform: rotate(30deg);
+        }
+
+        .box4{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(214, 169, 211);
+            margin: 0 auto;
+            transform: scalex(4);  
+        }
+        .box5{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(206, 134, 126);
+            margin: 0 auto;
+            transform: translate(40px ,40px);  
+            transform: skew(30deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3">ROTATE</div>
+    <div class="box4">SCALE</div>
+    <div class="box5">Translate</div>
+</body>
+</html>
