@@ -141,6 +141,7 @@ width: fit-content;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons {
@@ -192,3 +193,79 @@ width: fit-content;
     font-size: 0.85rem;
     opacity: 0.8;
 }
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 40%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+}
+
+.player{
+    width: 50%;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    width: 25%;
+
+}
+
+.player-control-icon{
+    height: 1rem;
+    opacity: 0.7;
+    margin-right: 1.5rem;
+
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.progress-bar:hover{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+    border-radius: 100%;
+    margin-top: -6px;
+}
+
